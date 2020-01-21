@@ -1,6 +1,6 @@
 #!/bin/bash
 
-directory=x86_64/
+directory=x86_64
 dbName=archlinux-repo
 options='--sign --new --remove'
 
