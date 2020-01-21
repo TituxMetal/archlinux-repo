@@ -2,7 +2,7 @@
 
 directory=x86_64
 dbName=archlinux-repo
-options='--sign --new --remove'
+options='--new --remove'
 
 rm $directory/$dbName.*
 
