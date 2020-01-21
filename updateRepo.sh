@@ -1,7 +1,7 @@
 #!/bin/bash
 
 directory=x86_64/
-dbName=archlinux-packages
+dbName=archlinux-repo
 options='--sign --new --remove'
 
 rm $directory/$dbName.*
