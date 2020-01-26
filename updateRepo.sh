@@ -2,9 +2,9 @@
 
 directory=x86_64
 dbName=archlinux-repo
-options='--new --remove'
+options='--sign --new --remove'
 
-rm $directory/$dbName.*
+# rm $directory/$dbName.*
 
 
 echo "repo-add"
